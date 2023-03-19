@@ -13,93 +13,93 @@
  
 </head>
 <body>
-    <style>
-      div{
-        font-family: 'MedievalSharp', cursive;
-      }
-    </style>
-   <div>
-    <h1 id="titulo">Ficha de Personagem</h1>
-    <p>Preencha os Campos</p>
-   </div>
+    <form>
    
-   <form>
-
-   <fieldset>
-    <Div>
-        <Label for="user">Nome do Jogador</Label>
-        <input type="text" id="user" name="Name"> 
-    </Div>
-
-    <div>
-        <label for="Nick">Nome do Personagem</label>
-        <input type="text" id="Nick" name="Nick">
-    </div>
-   </fieldset>
-
-    <div>
-        <label for="classe">classe</label>
-        <select name="classe" id="classe">
-            <option selected disabled value="">Selecione</option>
-            <option value="Guerreiro">Guerreiro</option>
-            <option value="Ranger">Ranger</option>
-            <option value="Bardo">Bardo</option>
-            <option value="Mago">Mago</option>
-            <option value="Druida">Druida</option>
-            <option value="Barbaro">Barbaro</option>
-            <option value="Ladino">Ladino</option>
-        </select>
-
-        <label for="img">imagem do Personagem</label>
-        <input type="file" accept=".png,.jpeg,.jfif">
-    </div>
-
-    <div class="atributos">
-        <h2>Atributos</h2>
-        
-        <div class="atributos">
-
-            <div class="resultado">
-                <label for="forca">Força:</label>
-                <label id="forca"></label>
-              
-
-            </div>
-
-            <div class="resultado">
-                <label for="destreza">destreza</label>
-                <label id="destreza"></label>
-            </div>
-
-            <div class="resultado">
-                <label for="constituicao">constituição</label>
-                <label id="constituicao"></label>
-            </div>
-
-            <div class="resultado">
-                <label for="inteligencia">inteligência</label>
-                <label id="inteligencia"></label>
-            </div>
-
-            <div class="resultado">
-                <label for="sabedoria">sabedoria</label>
-                <label id="sabedoria"></label>
-            </div>
-
-            <div class="resultado">
-                <label for="carisma">carisma</label>
-                <label id="carisma"></label>
-            </div>
-
-        </div>
-        <button id="rollbutton" onclick="minhaFuncao()">Rolar</button>
-        
-    <div>
-        <Label for="Background">História do Personagem</Label>
-        <input type="text" id="Background" name="Background">
-    </div>
-
-  </form>
-  <script src="assets/Main.js"></script>
-</body>
-</html>
+        <div>
+      <h1 id="titulo">Ficha de Personagem</h1>
+     </div>
+      
+       <fieldset>
+         <div class="campo">
+          <label for="user">Nome do Jogador</label>
+          <input type="text" id="user" name="Name"> 
+      </div>
+  
+      <div class="campo">
+          <label for="Nick">Nome do Personagem</label>
+          <input type="text" id="Nick" name="Nick">
+      </div>
+      
+         
+       <div class="campo2">
+          <label for="classe">classe</label>
+          <select name="classe" id="classe">
+              <option selected disabled value="">Selecione</option>
+              <option value="Guerreiro">Guerreiro</option>
+              <option value="Ranger">Ranger</option>
+              <option value="Bardo">Bardo</option>
+              <option value="Mago">Mago</option>
+              <option value="Druida">Druida</option>
+              <option value="Barbaro">Barbaro</option>
+              <option value="Ladino">Ladino</option>
+          </select>
+  
+          <label for="img">Avatar</label>
+          <input type="file" accept=".png,.jpeg,.jfif">
+      </div>
+       
+         
+        <div>
+          <h2 id="titulo2">Atributos</h2>
+  
+              <div class="resultado">
+                  <label for="forca">Força:</label>
+                  <label id="forca"></label>
+                
+  
+              </div>
+  
+              <div class="resultado">
+                  <label for="destreza">destreza:</label>
+                  <label id="destreza"></label>
+              </div>
+  
+              <div class="resultado">
+                  <label for="constituicao">constituição:</label>
+                  <label id="constituicao"></label>
+              </div>
+  
+              <div class="resultado">
+                  <label for="inteligencia">inteligência:</label>
+                  <label id="inteligencia"></label>
+              </div>
+  
+              <div class="resultado">
+                  <label for="sabedoria">sabedoria:</label>
+                  <label id="sabedoria"></label>
+              </div>
+  
+              <div class="resultado">
+                  <label for="carisma">carisma:</label>
+                  <label id="carisma"></label>
+              </div>
+  
+          </div>
+   
+    <button id="rollbutton" onclick="minhaFuncao()">Rolar</button>
+  
+     <div class="campo">
+          <label for="Background">História do Personagem</label>
+       <p> 
+         <textarea rows '50' style="width: 26em" id="background" name="background"></textarea>
+        </p> 
+    
+      </div>
+       <button id="submit" type"submit">Enviar</button>
+    </form>
+   </div>   
+  
+      </fieldset>
+    </form>
+     <script src="assets/Main.js"></script>
+  </body>
