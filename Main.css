@@ -1,46 +1,55 @@
+#titulo{
+  color: #B22222;
+  text-shadow: 2px 2px;
+  margin-left: 7%;
+  margin-bottom: 3%;
+  font-size: 3em;
+}
+
+fieldset{
+  border: 1;
+  width: 500px;
+  padding: 5%;
+  float: left;
   
-  #titulo{
-    color: #B22222;
-    text-shadow: 2px 2px;
-    margin-left: 7%;
-    font-size: 3em;
-  }
+}
+
+body{
+  color: #D3D3D3;
+  background-color: #1C1C1C;
+  font-size: 1em;
+  margin-left: 36%;
+  margin-top: 2%;
+  justify-content: center;
+}
+
+input, select, textarea, button{
+  border-radius: 8px;
+}
+
+.campo{
+  margin-bottom: 1em;
+ 
+}
+
+.campo2{
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: space-around;
   
-  #subtitulo{
-    margin-left: 7%;
-  }
-  
-  fieldset{
-    border: 0;
-  }
-  
-  body{
-    color: #D3D3D3;
-    background-color: #1C1C1C;
-    font-size: 1em;
-    margin-left: 36%;
-    margin-top: 2%;
-    justify-content: center;
-  }
-  
-  input, select, textarea, button{
-    border-radius: 5px;
-  }
-  
-  .campo{
-    margin-bottom: 1em;
-  }
-  
-  #titulo2{
-    margin-bottom: 1em;
-  }
-  
-  .resultado{
-    font-size: 1em;
-    margin-bottom: 1em;
-   }
-  
-  fieldset .grupo .campo{
-    float: left;
-    margin-right: 1em;
-  }
+}
+
+#titulo2{
+  margin-bottom: 1em;
+}
+
+.resultado{
+  font-size: 1em;
+  margin-bottom: 1em;
+ }
+
+
+
+#rollbutton{
+  margin-bottom: 1em;
+}
